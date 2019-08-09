@@ -1,0 +1,30 @@
+{
+  "name": "apexstats",
+  "version": "1.0.0",
+  "description": "Interact with Apex Legends Player stats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussDERM/ApexStats.git"
+  },
+  "author": "Russ Dermody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussDERM/ApexStats/issues"
+  },
+  "homepage": "https://github.com/RussDERM/ApexStats#readme",
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
