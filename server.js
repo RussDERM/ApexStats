@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
 
-//* Profile Routesl
+//* Profile Routes
 const userRoute = require("./routes/profile");
 
 //* Routes
@@ -27,8 +27,8 @@ const TRACKER_API_KEY = process.env.TRACKER_API_KEY;
 
 app.listen(5000, () => {
   console.log(
-    `Hello, I am your Server. I am running in ${
-      process.env.NODE_ENV
-    } mode on port ${PORT}`
+    `Hello, I am your Server. I am running in ${process.env.NODE_ENV} mode on port ${PORT}`
   );
 });
+
+// TEST
